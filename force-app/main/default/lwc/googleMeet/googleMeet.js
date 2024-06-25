@@ -28,7 +28,7 @@ export default class GoogleMeet extends LightningElement {
                 })
                 .catch(error => { console.log('error 001', error); })
         }
-        else if (result.error) { console.log('error 002', error); }
+        else if (result.error) { console.log('error 0002', error); }
 
     }
 
@@ -38,7 +38,7 @@ export default class GoogleMeet extends LightningElement {
                                 this.systemVar1.eventData = JSON.parse(JSON.stringify(eventResult));
                                 console.log('this.systemVar1.eventData', this.systemVar1.eventData);
                             })
-                            .catch(error => { console.log('error 003', error); })
+                            .catch(error => { console.log('error 0003', error); })
    }
 
     handleConfiguration() {
