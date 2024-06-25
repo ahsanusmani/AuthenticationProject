@@ -1,0 +1,26 @@
+.datatableAlign{
+	margin-top: 2rem;
+}
+.modalAlign{
+	min-height: 18rem;
+}
+.setButtonAlign{
+	display: flex;
+}
+.setInputAlign{
+	padding-right: .6rem;
+}
+
+.startTimeInputALign{
+	    position: relative;
+    bottom: 1.45rem;
+}
+
+.descriptionInputAlign{
+	    position: relative;
+    top: 1.3rem;
+}
+
+.saveButtonAlign{
+	padding-left: .8rem;
+}
